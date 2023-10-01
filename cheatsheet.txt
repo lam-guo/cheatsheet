@@ -1,0 +1,6 @@
+# kubectl自动补全
+source <(kubectl completion bash)
+
+# kubectl简写
+alias k=kubectl
+complete -o default -F __start_kubectl k
